@@ -12,7 +12,6 @@ stage all changes, commit with a message, and push — all in a single command.
 - `scp.ps1` — Defines the `Scp` function.
   
   ```powershell
-  # SCP Stands For Stage Commit Push
   function Scp {
       param (
           [Parameter(Position = 0)]
